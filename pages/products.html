@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body class="bodycalc">
+    <h2 class="tools tools1" id="tools">WIZ - CALCULATOR</h2>
+    <form class="calculator" action="" target="" method="" name="clc">
+
+        <input class="screen" type="text" name="display">
+
+
+        <div class="buttons">
+            <!-- <input class="screen" type="text" name="display"> -->
+
+            <input class="keys" type="text" value="#" onclick="clc.display.value += '#' ">
+            <input class="keys" type="text" value="~" onclick="clc.display.value += '~' ">
+            <input class="keys" type="text" value="sin" onclick="clc.display.value += 'sin' ">
+            <input class="keys" type="text" value="deg" onclick="clc.display.value += 'deg' ">
+            <input class="keys" type="text" value="C" onclick="clc.display.value=''" >
+            <input class="keys" type="text" value="*" onclick="clc.display.value += '*' ">
+            <input class="keys money" type="text" value="&#247" onclick="clc.display.value += '&#247' ">
+            <input class="keys money" type="text" value="^" onclick="clc.display.value += '^' ">
+            <input class="keys" type="text" value="7" onclick="clc.display.value += '7' ">
+            <input class="keys" type="text" value="8" onclick="clc.display.value += '8' ">
+            <input class="keys" type="text" value="9" onclick="clc.display.value += '9' ">
+            <input class="keys money" type="text" value="-" onclick="clc.display.value += '-' ">
+            <input class="keys" type="text" value="4" onclick="clc.display.value += '4' ">
+            <input class="keys" type="text" value="5" onclick="clc.display.value += '5' ">
+            <input class="keys" type="text" value="6" onclick="clc.display.value += '6' ">
+            <input class="keys plus money" type="text" value="+" onclick="clc.display.value += '+' ">
+            <input class="keys" type="text" value="1" onclick="clc.display.value += '1' ">
+            <input class="keys" type="text" value="2" onclick="clc.display.value += '2' ">
+            <input class="keys" type="text" value="3" onclick="clc.display.value += '3' ">
+            <input class="keys equals" id="zero" type="text" value="." onclick="clc.display.value = '.' ">
+            <input class="keys" type="text" value="=" onclick="clc.display.value = eval(clc.display.value) ">
+            <input class="keys equal2 money" type="text" value="0" onclick="clc.display.value += '0' ">
+            
+        </div>
+        
+    </form>
+</body>
+</html>

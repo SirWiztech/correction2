@@ -1,0 +1,1693 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 18px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: grab;
+}
+
+body {
+
+    background: linear-gradient(rgb(8, 8, 43), rgb(8, 8, 43));
+    /* background: url(/IMAGES/abstract-realistic-technology-particle-background_23-2148427028.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.header .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    /* font-family: "poppins", serif; */
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.nav {
+    margin-left: 40px;
+    margin: 5px;
+}
+
+
+.logo {
+    position: relative;
+    right: 65px;
+    bottom: 79px;
+
+
+}
+
+.nav a:link {
+    color: white;
+    border-bottom: 4px solid orangered;
+
+
+}
+
+.nav a:visited {
+    border-bottom: 4px solid orangered;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid blue;
+
+
+}
+
+.nav a:active {
+    color: orangered;
+}
+
+.register {
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    border: 4px solid blue;
+    outline: 4px solid white;
+    margin: 5px;
+    margin-left: 30px;
+    margin-top: 11px;
+}
+
+.register a {
+    text-align: center;
+    font-size: 20px;
+    /* font-family: "poppins", sans-serif; */
+    text-decoration: none;
+    color: white;
+    position: relative;
+    right: 22px;
+    bottom: 7px;
+
+}
+
+.register:hover {
+    color: rgba(0, 0, 0, 1);
+    outline-color: orangered;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    padding-left: 30px;
+
+}
+
+.search {
+    width: 150px;
+    margin-right: 10px;
+    height: 50px;
+    border: 4px solid blue;
+    border-radius: 12px;
+    outline: 4px solid orangered;
+    margin: 12px;
+
+
+
+}
+
+
+
+.search:focus {
+    background-color: rgb(179, 178, 178);
+
+
+}
+
+
+
+i {
+    position: absolute;
+    display: inline;
+    left: 25px;
+    top: 160px;
+    font-weight: bolder;
+    /* font-family: "poppins"; */
+    padding-bottom: 20px;
+
+    bottom: 570px;
+    font-size: large;
+    border-bottom: 4px solid orangered;
+    overflow: hidden;
+
+
+
+}
+
+.div1 {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid orangered;
+    border-style: dotted;
+    height: 150px;
+    width: 150px;
+    top: 14px;
+    left: 49px;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+.section1 .div2 {
+    /* font-family: "Kanit", serif; */
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;
+    color: white;
+}
+
+.span1,
+.span2 {
+    /* font-family: "Kanit", serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    color: white;
+    color: orangered;
+}
+
+.para1 {
+    color: white;
+    /* color: black; */
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.section1 .discover {
+    color: white;
+    text-decoration: none;
+    border: 4.5px solid orangered;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: 4px solid white;
+
+}
+
+.section1 .but2 {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    outline: 4px solid white;
+}
+
+.section1 .but2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.click {
+    display: flex;
+    gap: 150px;
+}
+
+.section1 .discover:hover,
+.section1 .but2:hover {
+    position: relative;
+    bottom: 20px;
+    color: orange;
+}
+
+.section1 .but2 a:hover {
+    color: blue;
+}
+
+.table {
+    border: 4px orangered;
+    background-color: rgb(117, 16, 248);
+    border-radius: 25px;
+    width: 600px;
+    position: relative;
+
+}
+
+.table .row .td1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+td {
+    color: white;
+    font-size: large;
+}
+
+.circle {
+    color: white;
+    display: flex;
+    position: relative;
+    gap: 20px;
+    justify-content: flex-start;
+
+}
+
+.circle img {
+    border-radius: 50%;
+    position: absolut;
+    border: 3px solid orangered;
+
+}
+
+.span3 {
+    position: relative;
+    top: 40px;
+    font-size: 32px;
+    font-weight: bolder;
+    text-indent: 60px;
+}
+
+img:hover {
+    position: relative;
+    bottom: 25px;
+    box-shadow: 0px, 10px, 5px, 0px, rgba(245, 242, 242, 0.966);
+}
+
+.section1 .imgai {
+    float: right;
+    position: relative;
+    bottom: 400px;
+    height: 500px;
+}
+
+.section1 .finger {
+    float: right;
+    position: relative;
+    right: 75px;
+    bottom: 200px;
+
+}
+
+.section1 .robot {
+    position: relative;
+    bottom: 200px;
+    height: 500px;
+    float: left;
+    right: 70px;
+}
+
+.robot:hover {
+    position: relative;
+    left: 100px;
+
+}
+
+.signup {
+    border: 3px solid orangered;
+    border-radius: 20px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    outline: 3px solid white;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    background-color: blueviolet;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 20px;
+}
+
+.signin {
+    text-decoration: none;
+    color: white;
+    border: 3px solid blueviolet;
+    border-radius: 20px;
+    outline: 3px solid white;
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+    background-color: orangered;
+    font-size: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+
+
+.sign1 {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 660px;
+    bottom: 40px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 20px;
+}
+
+.sign2 {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 780px;
+    bottom: 40px;
+    font-size: 20px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+
+.signup:hover {
+
+    position: relative;
+    bottom: 150px;
+
+}
+
+.signin:hover {
+    position: relative;
+    bottom: 150px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    border: 3px solid orangered;
+    border-radius: 20px;
+    width: 400px;
+    height: 900px;
+    color: white;
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+    margin-top: 150px;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    width: 350px;
+    color: white;
+
+
+}
+
+.submit {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 30px;
+    background-color: blue;
+    width: 300px;
+
+}
+
+.signu {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign {
+
+    border: solid blue;
+    border-radius: 20px;
+    background-color: orangered;
+    position: relative;
+    top: 20px;
+
+}
+
+input:focus {
+    background-color: rgb(51, 51, 75);
+}
+
+.sign3 {
+    position: relative;
+    top: 20px;
+}
+
+.jan {
+    position: relative;
+    bottom: 80px;
+}
+
+.write,
+.write1 {
+    /* position: relative; */
+    bottom: 500px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.write1 {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 32%;
+    top: 500px;
+    background-color: blue;
+}
+
+.form2 {
+    height: 720px;
+}
+
+.acct {
+    position: relative;
+    top: 20px;
+}
+
+.check {
+    margin-left: -150px;
+}
+
+.Remember {
+    margin-left: -180px;
+
+}
+
+.writo {
+    margin-left: 37%;
+
+}
+
+.bodycalc {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 3px solid rgb(0, 183, 255);
+    height: 700px;
+    width: 400px;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 200px;
+    /* border-top-width: 10px; */
+    /* border-bottom-width: 10px; */
+    align-self: center;
+    position: relative;
+    right: 450px;
+
+}
+
+.buttons {
+    border: 2px solid rgb(5, 162, 214);
+    border: none;
+    margin-right: 360px;
+    margin-bottom: 20px;
+
+    /* margin-top: 300px; */
+    height: 60%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.screen {
+    border: 2px solid orangered;
+    height: 30%;
+    /* border: none; */
+    background-color: black;
+    position: relative;
+    bottom: 450px;
+    left:385px;
+    width: 1000px;
+    font-size: 30px;
+
+}
+
+.keys {
+    border: 2px solid rgb(0, 183, 255);
+    height: 50px;
+    width: 78px;
+    border-radius: 20px;
+    color: rgb(0, 183, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+.plus {
+    grid-row: span 2;
+    height: 120px;
+
+}
+
+.equals {
+    grid-column: span 2;
+    width: 160px;
+
+}
+
+.equal2 {
+    grid-row: span 2;
+
+
+}
+
+.money {
+    background-color: rgb(255, 69, 0);
+}
+
+.keys:hover {
+    background-color: orangered;
+    margin-bottom: 10px;
+}
+
+.sign a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub1,
+.sub2,
+.sub3,
+.sub4 {
+    text-align: left;
+
+}
+
+.content1 a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.sub3 h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 3px solid orangered;
+    border-width: 2px;
+    text-align: center;
+}
+
+.footer1 .spanfooter1 {
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    font-weight: bolder;
+    width: fit-content;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid;
+    line-height: 20px;
+
+
+}
+
+.spanfooter2 {
+    color: orangered;
+}
+
+.short {
+    font-size: 20px;
+}
+
+.footer2 .content1 a:hover {
+    color: orangered;
+}
+
+.footer2 .sub3 h3:hover {
+    position: relative;
+    bottom: 20px;
+}
+
+.footer1 .spanfooter1:hover {
+    color: orangered;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.copyright {
+    color: white;
+    margin-left: 45%;
+}
+
+.copyright:hover {
+    color: blue;
+    font-size: 40px;
+}
+
+.section25 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    border: 9px solid orangered;
+    outline: 9px solid blue;
+
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.clock .time12 {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+}
+
+.clock .time6 {
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+}
+
+.clock .time3 {
+    position: absolute;
+    left: 580px;
+
+}
+
+.time11 {
+    position: relative;
+    bottom: 240px;
+    right: 430px;
+
+}
+
+.time9 {
+    position: relative;
+    right: 270px;
+    bottom: 20px;
+}
+
+.time1 {
+    position: absolute;
+    left: 465px;
+    top: 75px;
+
+
+}
+
+.time2 {
+    position: absolute;
+    top: 180px;
+    left: 545px;
+}
+
+.time4 {
+    position: absolute;
+    left: 540px;
+    bottom: 180px;
+}
+
+.time5 {
+    position: absolute;
+    left: 430px;
+    bottom: 80px;
+}
+
+.time10 {
+    position: absolute;
+    top: 170px;
+    left: 70px;
+}
+
+.time7 {
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+    top: 530px;
+}
+
+.time8 {
+    position: relative;
+    top: 110px;
+    left: 50px;
+}
+
+.hand1 {
+    position: absolute;
+    content: "";
+    height: 250px;
+    background-color: orangered;
+    border-top: 5px dotted;
+    border-radius: 100px;
+    border: 5px solid;
+    outline: 5px solid blue;
+    left: 355px;
+    bottom: 180px;
+    translate: -50% -50%;
+}
+
+.hand2 {
+    position: absolute;
+    border-radius: 100px;
+    border: 5px solid;
+    outline: 5px solid blue;
+    background-color: orangered;
+    width: 290px;
+    left: 35%;
+    top: 360px;
+    translate: -50% -50%;
+}
+
+.hand3 {
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    left: 320px;
+    top: 215px;
+    z-index: -1;
+}
+
+.tools {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    border: 5px solid orangered;
+    border-radius: 150px;
+    outline: 5px solid;
+    background-color: blue;
+    width: 500px;
+    margin-left: 33%;
+}
+
+.bodycalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools1 {
+    align-self: flex-start;
+
+}
+
+.disturb {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.disturb .stubborn {
+    color: white;
+    align-self: flex-end;
+    position: relative;
+    right: 1340px;
+    bottom: 80px;
+    font-size: 50px;
+    border: 3px dotted orangered;
+
+}
+
+.disturb .stubborn2 {
+    color: white;
+    align-self: flex-end;
+    position: relative;
+    right: 900px;
+    bottom: 80px;
+    font-size: 50px;
+    border: 3px dotted orangered;
+
+}
+
+.logo1 {
+    position: relative;
+    top: 50px;
+}
+
+.down {
+    color: white;
+    position: relative;
+    font-size: 50px;
+    bottom: 170px;
+    left: 90px;
+    border: 5px solid white;
+    border-radius: 20px;
+    outline: 5px solid white;
+    background-color: blue;
+    box-shadow: 10px 10px 10px 10px rgb(129, 112, 112);
+}
+
+.logo1 .down:hover {
+    color: orangered;
+}
+
+#icon1,
+#icon2,
+#icon3,
+#icon4,
+#icon5 {
+    position: absolute;
+    border: none;
+    left: 340px;
+    top: 75px;
+    color: orangered;
+}
+
+#icon1 {
+    left: 335px;
+}
+
+#icon2 {
+    left: 465px;
+}
+
+#icon3 {
+    left: 610px;
+}
+
+#icon4 {
+    left: 780px;
+
+}
+
+#icon5 {
+    left: 950px;
+}
+
+/* #icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover, #icon5:hover{ */
+
+footer .footer1 .happy {
+    position: relative;
+    font-size: 170px;
+    border-bottom: none;
+    height: 170px;
+    bottom: 50px;
+    left: 530px;
+}
+
+footer .footer1 .happy a .bx {
+    font-size: 150px;
+    height: 150px;
+    border-bottom: none;
+
+}
+
+.footer .footer1 .happy a .discord {
+    margin-left: 240px;
+}
+
+.footer .footer1 .happy a .facebook {
+    margin-left: 480px;
+}
+
+.footer .footer1 .happy a .twitter {
+    margin-left: 700px;
+}
+
+footer .footer1 .happy a .bx:hover {
+    animation: none;
+}
+
+.copyright {
+    /* position: relative; */
+    font-size: 50px;
+    position: relative;
+    left: -150px;
+
+}
+
+.copyright .bx-flashing {
+    border-bottom: none;
+    font-size: 150px;
+    left: -100px;
+    /* margin-bottom: 90px; */
+    position: relative;
+    top: 70px;
+
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.body25 .section25 #clock::after, .body25 .section25 #clock::before{
+    --angle: 0deg;
+    content: '';
+    position: absolute;
+    height: 55%;
+    width: 500px;
+    background-image: conic-gradient(from var(--angle), transparent 99%, red);
+    translate: -50% -50%;
+    z-index: -1;
+    top: 360px;
+    left: 355px;
+    padding: 5px;
+    border-radius: 10px;
+    animation: 050s spin linear infinite;
+    
+
+
+    
+}
+.body25 .section25  #clock::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+
+}
+
+@keyframes spin{
+    from{
+        --angle:360deg
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .body, body {
+        max-width: 90%;
+        margin: 0.5 auto;
+    }
+
+
+    .section1 {
+        width: 80%;
+    }
+
+    .header {
+        width: 80%;
+    }
+
+    .header .search {
+        position: relative;
+        right: 130px;
+    }
+
+    #register,
+    .register {
+        position: relative;
+        right: 150px;
+        width: 150px;
+
+    }
+
+    .register a {
+        position: relative;
+        left: -12px;
+    }
+
+
+    .logo {
+        position: relative;
+        right: 100px;
+    }
+
+    .div1 {
+        position: absolute;
+        left: 13px;
+    }
+
+    .section1 .div2,
+    .span1,
+    .span2 {
+        width: 90%;
+        font-size: 55px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        white-space: nowrap;
+    }
+
+    .div2 {
+        position: relative;
+        right: 55px;
+
+    }
+
+    .para1 .imgai {
+        position: relative;
+        top: 10px;
+        left: 420px;
+
+
+    }
+
+    .para1 {
+        width: 80%;
+    }
+
+    .para1 p {
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 30px;
+        line-height: 50px;
+        font-size: 40px;
+        width: 400px;
+
+    }
+
+    .click {
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+
+    .disturb {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .stubborn {
+        position: relative;
+        left: 80px;
+        top: -850px;
+    }
+
+    .disturb .stubborn2 {
+
+        position: relative;
+        left: -40px;
+        top: -300px;
+
+        font-size: 40px;
+
+
+    }
+
+    .finger {
+        margin-top: 150px;
+    }
+
+
+    .mavin {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+
+    }
+
+    .mavin .table {
+        position: relative;
+        bottom: 150px;
+        left: 30px;
+    }
+
+    .night {
+        display: flex;
+
+        position: relative;
+        right: 1050px;
+        top: 100px;
+    }
+
+    .signup {
+        margin-left: 200px;
+
+    }
+
+    .signup,
+    .signin {
+        width: 160px;
+        height: 70px;
+    }
+
+    .section1 .circle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        position: relative;
+        left: 100px;
+    }
+
+    .circle .span3 {
+        white-space: nowrap;
+        font-size: 40px;
+        margin-left: 50px;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .footer .footer1 {
+        width: 90000000px;
+        font-size: 30px;
+        margin: 100px;
+    }
+
+    .footer .footer1 .spanfooter1 {
+        margin-left: 10px;
+    }
+
+    .footer1 .short {
+        font-size: 30px;
+        text-align: left;
+        line-height: 50px;
+        width: 500px;
+        margin-left: -100px;
+    }
+
+    .footer2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    .copyright {
+        white-space: nowrap;
+        position: relative;
+        right: 50px;
+    }
+
+    .footer2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        right: 100px;
+    }
+
+    .logo1 {
+        display: flex;
+        justify-content: center;
+        align-items: ceneter;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .logo1 .down {
+        align-self: flex-start;
+        position: relative;
+        top: -80px;
+        left: 95px;
+        white-space: nowrap;
+        font-size: 33px;
+        color: rgb(255, 255, 255);
+        width: 400%;
+    }
+
+    .logo1 img {
+        margin-left: 360px;
+        margin-bottom: 30px;
+    }
+
+    .body {
+        width: 80%;
+    }
+
+    .container {
+        margin-left: 100px;
+    }
+
+    .body .write1 {
+        white-space: nowrap;
+        font-size: 35px;
+        margin-left: 40px;
+    }
+
+    .body .writo {
+        margin-left: 80px;
+        margin-bottom: 0px;
+    }
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 500px) */
+
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+    .header {
+        max-width: 90%;
+        margin: 0.5 auto;
+    }
+
+    .header .search {
+
+        position: relative;
+        top: 170px;
+        left: -220px;
+    }
+
+    .header #register {
+        margin-left: -117px;
+        width: 130px;
+
+    }
+
+    .header #search {
+        width: 120px;
+    }
+
+    .section1 .div2,
+    .span1,
+    .span2 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .section1 .para1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    .para1 img {
+        margin-right: 820px;
+        width: 400px;
+    }
+
+    .section1 .click {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+    }
+
+
+    .section1 .disturb {
+        width: 90%;
+        margin-left: -70px;
+
+    }
+
+    .disturb .stubborn,
+    .disturb .stubborn2 {
+        font-size: 20px;
+    }
+
+    .disturb .stubborn2 {
+        margin-left: 50px;
+    }
+
+    .mavin .table {
+        margin-left: -90px;
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .table td {
+        font-size: 10px;
+    }
+
+    .table #td {
+        font-size: 30px;
+    }
+
+    .mavin .night .signup,
+    .mavin .night.sign1 {
+        margin-left: 175px;
+    }
+
+    .mavin .night .signin,
+    .mavin .night.sign2 {
+        margin-left: -230px;
+    }
+
+
+    .circle {
+        margin-left: -50px;
+    }
+
+    .footer .footer1 {
+        margin-left: 80px;
+
+    }
+
+    .footer .footer1 .short {
+        width: 130%;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .footer .footer1 .spanfooter1 {
+        margin-left: -110px;
+
+    }
+
+    .footer .footer2 {
+        grid-template-columns: 1fr;
+    }
+
+    .logo1 img {
+        width: 300px;
+        margin-left: 270px;
+    }
+
+    .logo1 .down {
+        font-size: 20px;
+        margin-left: -100px;
+    }
+
+    .copyright {
+        margin-left: 50px;
+    }
+
+
+    .body .container form {
+        width: 290px;
+        margin-left: -38px;
+
+    }
+
+    .container form input {
+        width: 250px;
+    }
+
+    .body .write1,
+    .submit {
+        /* white-space: wrap; */
+        font-size: 20px;
+        margin-left: -2px;
+    }
+
+    .sign3,
+    .sign {
+        font-size: 11px;
+    }
+
+    .body .write1 {
+        margin-left: 20px;
+    }
+
+    .form2 .acct {
+        margin-left: -30px;
+
+    }
+
+    .form2 .acct2 {
+        margin-left: 130px;
+        width: 130px;
+
+        font-size: 15px;
+    }
+
+    .check {
+        margin-left: -100px;
+
+    }
+
+    .Remember {
+        margin-left: 30px;
+        position: relative;
+        bottom: 23px;
+    }
+
+    .acct,
+    .acct2 {
+        position: relative;
+        top: -20px;
+    }
+
+    .body .round {
+        margin-left: -5px;
+    }
+
+    .circle .span3 {
+        margin-left: -3px;
+    }
+
+    .logo1 {
+        margin-left: -10px;
+    }
+
+
+    .bodycalc .calculator {
+        display: flex;
+        justify-content: center;
+        margin-left: -120px;
+        width: 290px;
+    }
+
+    .calculator .buttons .keys,
+    .calculator .screen {
+        width: 54px;
+        font-size: 25px;
+
+    }
+
+    .buttons #zero {
+        width: 130px;
+
+    }
+
+    .bodycalc #tools {
+        margin-left: 830px;
+        font-size: 30px;
+        position: relative;
+        right: 309px;
+
+    }
+
+    body .header #logo {
+        width: 150px;
+        position: relative;
+        /* margin-left: 50px; */
+        left: -35px;
+        top: 20px;
+    }
+
+    body .header {
+        margin-left: 40px;
+        margin-bottom: 60px;
+    }
+
+    .header .div1 {
+        width: 130px;
+        margin-left: -10px;
+    }
+
+    .body25 .section25 #clock {
+        height: 250px;
+        width: 550px;
+        margin-left: 30px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .body25 .section25 .clock12 {
+        font-size: 30px;
+    }
+
+    .body25 #tools1 {
+
+        margin-left: 300px;
+        font-size: 30px;
+        position: relative;
+        right: 309px;
+        width: 250px;
+    }
+
+    .body25 .section25 .time12 {
+        left: 78px;
+        top: -15px;
+
+    }
+
+    .body25 .section25 .time6 {
+        left: 70px;
+        top: 192px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time3 {
+        left: 160px;
+        top: px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time12 {
+        left: 73px;
+        top: -15px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time9 {
+        left: -80px;
+        top: -4px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time1 {
+        left: 130px;
+        top: 8px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time2 {
+        left: 150px;
+        top: 47px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time4 {
+        left: 145px;
+        top: 136px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time5 {
+        left: 118px;
+        top: 170px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time11 {
+        left: -95px;
+        top: -83px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time10 {
+        left: -5px;
+        top: 43px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time7 {
+        left: 20px;
+        top: 169px;
+        font-size: 20px;
+    }
+
+    .body25 .section25 .time8 {
+        left: -25px;
+        top: 45px;
+        font-size: 20px;
+    }
+
+    #clock .hand1 {
+        left: 80px;
+        height: 110px;
+        width: 30px;
+        top: 28px;
+    }
+
+    #clock .hand2 {
+        width: 90px;
+        top: 100px;
+        left: 35px;
+    }
+
+    #clock .hand3 {
+        left: 83px;
+        font-size: 30px;
+        top: 80px;
+    }
+
+    .footer .footer1 .happy {
+        margin-left: -670px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footer .footer1 #happy .bx {
+        position: none;
+        font-size: 110px;
+        display: inline-block;
+        margin-top: -70px;
+        
+
+
+    }
+
+    .footer .footer1 #happy #discord{
+        margin-left: 130px;
+    }
+
+    .footer .footer1 #happy .facebook{
+        margin-left: -50px;
+        margin-top: 130px;
+
+    }
+
+    .footer .footer1 #happy #bx{
+        margin-left: 125px;
+        margin-top: 130px;
+    
+    }
+
+    .footer .footer1 #happy #instagram{
+        margin-left: -52px;
+    }
+
+    .copyright{
+        font-size: 20px;
+        /* margin-left: 30px; */
+        position: relative;
+        left: -196px;
+    }
+
+    .copyright:hover{
+        color: blue;
+        font-size: inherit;
+    }
+
+    .copyright #copy{
+        position: relative;
+        left: 8px;
+        top: 35px;
+        font-size: 50px;
+        margin-left: 100px;
+        
+    }
+
+    
+
+
+
+}
